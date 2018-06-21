@@ -38,8 +38,9 @@ var formInputs = [usernameInput, passInput];
 4. And now u have to add listeners to every input and submit button 
 ```
 //example 
-usernameInput.addEventListener("keyup", function() { validator.validate(usernameInput,submitButton,"type"); }); Instead "type" use: - "password", - "username", - "text", - "mail"
+usernameInput.addEventListener("keyup", function() { validator.validate(usernameInput,submitButton,"type"); }); 
 ```
+**Instead "type" use: - "password", - "username", - "text", - "mail"**
 And for submit button use this:
 ```
 submitButton.addEventListener("click",function(event){ validator.submit(submitButton,formInputs,event); });
