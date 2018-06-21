@@ -40,11 +40,11 @@ var formInputs = [usernameInput, passInput];
 //example 
 usernameInput.addEventListener("keyup", function() { validator.validate(usernameInput,submitButton,"type"); }); 
 ```
-**Instead "type" use: 
-- "password", 
-- "username", 
-- "text", 
-- "mail"**<br/>
+**Instead "type" use: **
+**- "password", **
+**- "username", **
+**- "text", **
+**- "mail"**<br/>
 And for submit button use this:
 ```
 submitButton.addEventListener("click",function(event){ validator.submit(submitButton,formInputs,event); });
